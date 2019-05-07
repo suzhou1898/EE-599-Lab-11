@@ -1,0 +1,5 @@
+Name: Junquan Yu
+E-mail address: junquany@usc.edu
+Summary of Program: According to the Lab 11 document PDF, i completed the programs for the linear regression analysis with Python. I tested it under my OS system and they all performed as expected and produced the correct results. 
+For the part1, the vector of w is (-3.581,1.170), the prediction value for (20000,50000) is (23391.94,58485.23).
+For the part2, the vector of w is (-3.553,1.167). The choice of suitable learning rate is very important, if learning rate is too small, gradient descent can be slow. If it is too larges, gradient descent may overshoot the minimum and may fail to converge, or even diverge. The least square method avoids the choice of hyper parameter such as learning rate, and it doesn't need iterations. However, it needs to compute the inverse of matrix, will be slow (or even can't do) if feature dimension is too large. GD works well even when feature dimension is large. However, it needs many iterations and need to choose good hyperparameters.  
